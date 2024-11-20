@@ -1,0 +1,97 @@
+body {
+    width: 99%;
+    margin: auto;
+    background-color: rgb(201, 199, 199);
+    }
+    
+    main {
+    display: flex;
+    }
+    
+    .padding_this{
+    padding: 3px;
+    }
+    
+    .header,
+    .menu_atas,
+    .konten,
+    .menu_samping,
+    .huruf,
+    .footer {
+    margin-bottom: 5px;
+    padding: 15px 0;
+    }
+    .huruf{
+        font-family:sans-serif
+        font-size: medium;
+    }
+    .header {
+    width: 100%;
+    height: auto;
+    background: #99D9EA;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    }
+    .menu_atas {
+    width: 100%;
+    height: auto;
+    text-align: right;
+    }
+    .konten {
+    width: 70%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    
+    }
+    .menu_samping {
+    width: 30%;
+    background: #FD7E00;
+    }
+    .footer {
+    width: 100%;
+    background: #99D9EA;
+    text-align: center;
+    }
+    
+    .menu_atas ul{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    }
+    .menu_atas li{
+    float: left;
+    margin: 0 10px;
+    }
+.floatleft{
+    float:left;
+}
+
+img{
+border: 2px solid rgb(77, 75, 75);
+width: 17%;
+height: 27%;
+box-shadow:0 0 10px #666; 
+border-radius:5px; 
+margin-left:5px; 
+margin-right: 5px;
+margin-top: 3px;
+margin-bottom: 3px;
+}
+h1{
+text-align:left;
+}
+h6{
+font-size: 14px; text-align: right;
+}
+hr{
+border-color: white;
+width: 98%;
+size: 3px;
+}
+address{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: normal;
+}
